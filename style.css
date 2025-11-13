@@ -1,0 +1,117 @@
+/* ============================
+   Corpo da página
+============================ */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: blue; /* fundo preto */
+    color: white; /* texto branco */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ============================
+   Cabeçalhos
+============================ */
+h1, h2 {
+    color: #000000; /* preto */
+    margin-bottom: 25px;
+}
+
+/* ============================
+   Texto e parágrafos
+============================ */
+p {
+    color: #000000; /* preto */
+    font-size: 16px;
+}
+
+/* ============================
+   Inputs, selects e textarea
+============================ */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 2px solid #000000; /* borda preta */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* fundo branco */
+    color: #000000; /* texto preto */
+}
+
+/* ============================
+   Botões
+============================ */
+input[type="submit"],
+button,
+.botoes a {
+    background-color: #000000; /* fundo preto */
+    color: #ffffff; /* texto branco */
+    padding: 12px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.botoes a:hover {
+    background-color: #333333; /* cinza escuro ao passar o mouse */
+}
+
+/* ============================
+   Tabela
+============================ */
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px auto;
+    background-color: #ffffff; /* fundo branco */
+    color: #000000; /* texto preto */
+}
+
+th, td {
+    border: 1px solid #000000; /* borda preta */
+    padding: 8px 12px;
+}
+
+th {
+    background-color: #000000; /* fundo preto */
+    color: #ffffff; /* texto branco */
+}
+
+/* ============================
+   Links
+============================ */
+a {
+    color: #000000; /* preto */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================
+   Mensagens
+============================ */
+p.msg-sucesso {
+    color: #007f00; /* verde para sucesso */
+    font-weight: bold;
+}
+
+p.msg-erro {
+    color: #ff0000; /* vermelho para erro */
+    font-weight: bold;
+}
